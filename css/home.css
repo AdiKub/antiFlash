@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+.tshirt-design {
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+
+}
+.option-images {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.option-image-wrapper {
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 15%;
+}
+
+.tshirt-clear__button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 50%;
+
+}
+.tshirt {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 400px;
+}
