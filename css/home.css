@@ -3,41 +3,85 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-  }
+}
 .tshirt-design {
-    height: 500px;
-    margin-left: 20px;
-    margin-top: 50px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 36px;
     display: flex;
-
 }
 .option-images {
+    height: 495px;
     width: auto;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.option__image {
+    width: 140px;
+    height: 140px;
+    object-fit: scale-down;
+}
 .option-image-wrapper {
-    width: 130px;
-    height: 130px;
-    border: 2px solid rgb(177, 177, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border: 1px solid rgb(177, 177, 177);
     border-radius: 15%;
 }
-
-.tshirt-clear__button {
-    width: 50px;
-    height: 50px;
-    border: 2px solid rgb(177, 177, 177);
-    border-radius: 50%;
-
+.option-image-wrapper:hover {
+    cursor: pointer;
 }
 .tshirt {
-    padding: 10px;
+    top: 110px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    height: 80%;
     width: 400px;
+    position: relative;
+}
+.tshirt-drob-box {
+    top: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    height: 75%;
+    width: 350px;
+}
+.tshirt__image {
+    width: 350px;
+    height: 300px;
+    object-fit: scale-down;
+}
+.tshirt-option__image {
+    margin-top: 40px;
+    width: 120px;
+    height: 120px;
+    object-fit: scale-down;
+}
+.tshirt-clear__button {
+    margin-left: 310px;
+    margin-top: 60px;
+    left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 50%;
+}
+.tshirt-clear__button:hover {
+    cursor: pointer;
+}
+.tshirt-clear__button__image {
+    width: 40px;
+    height: 40px;
+    object-fit: scale-down;
 }

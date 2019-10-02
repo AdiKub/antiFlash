@@ -10,34 +10,32 @@
 </head>
 
 <body>
-
 	<main class="tshirt-design">
 		<div class="option-images">
 			<div class="option-image-wrapper">
-				</img src="sdfgdf" alt="icecream" class="option-image">
+				<img src="../images/iceCream_01.svg" alt="iceCream" id="iceCream_01" class="option__image"
+					ondragstart="dragStart(event)" />
 			</div>
 			<div class="option-image-wrapper">
-				</img src="dfggsf" alt="monster" class="option-image">
+				<img src="../images/monster_01.svg" alt="monster" id="monster_01" class="option__image"
+					ondragstart="dragStart(event)" />
 			</div>
 			<div class="option-image-wrapper">
-				</img src="dfggsf" alt="sun" class="option-image">
+				<img src="../images/sun_01.svg" alt="sun" id="sun_01" class="option__image" ondragstart="dragStart(event)" />
 			</div>
 		</div>
-
 		<div class="tshirt">
 			<div class="tshirt-wrapper">
-				</img src="dfggsf" alt="icecream" class="tshirt-image">
-				<div class="tshirt-drob-box" >
-				</img src="">
+				<img src="../images/tshirt_01.svg" alt="tshirt" class="tshirt__image" />
+				<div class="tshirt-drob-box" ondragover="allowDrop(event)" ondrop="drop(event)">
+					<img style="display: none" src="" alt="shost" id="tshirt-option__image" class="tshirt-option__image" />
 				</div>
 			</div>
-			<div class="tshirt-clear__button">
-
+			<div onclick="dropClear()" class="tshirt-clear__button">
+				<img src="../images/cleaner_01.svg" class="tshirt-clear__button__image" alt="cleaner" />
 			</div>
 		</div>
 	</main>
-
-
 	<script src="../js/main.js" defer></script>
 </body>
 
