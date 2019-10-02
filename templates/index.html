@@ -18,7 +18,7 @@
 					alt="iceCream" 
 					id="iceCream_01" 
 					class="option__image"
-					ondragstart="dragStart(event)" />
+					ondragstart="changeImages.dragStart(event)" />
 			</div>
 			<div class="option-image-wrapper">
 				<img 
@@ -26,7 +26,7 @@
 					alt="monster" 
 					id="monster_01" 
 					class="option__image"
-					ondragstart="dragStart(event)" />
+					ondragstart="changeImages.dragStart(event)" />
 			</div>
 			<div class="option-image-wrapper">
 				<img 
@@ -34,7 +34,7 @@
 					alt="sun" 
 					id="sun_01" 
 					class="option__image" 
-					ondragstart="dragStart(event)" />
+					ondragstart="changeImages.dragStart(event)" />
 			</div>
 		</div>
 		<div class="tshirt">
@@ -45,8 +45,8 @@
 					class="tshirt__image" />
 				<div 
 					class="tshirt-drob-box" 
-					ondragover="allowDrop(event)" 
-					ondrop="drop(event)">
+					ondragover="changeImages.allowDrop(event)" 
+					ondrop="changeImages.onDrop()">
 					<img 
 						style="display: none" 
 						src="" 
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div 
-				onclick="dropClear()" 
+				onclick="changeImages.dropClean()" 
 				class="tshirt-clear__button">
 				<img 
 					src="../images/cleaner_01.svg" 
